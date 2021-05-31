@@ -1,0 +1,48 @@
+html {
+    padding-left: 1em;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 80em;
+}
+
+/* navbar */
+.nav {
+    padding-top: 3em;
+}
+
+.nav-inner {
+    /* Cancel out the default list margin/padding */
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+    font-size: large;
+}
+
+.nav li {
+    display: inline; /* disable bullet points */
+    padding: 0 1em;
+}
+
+.error, .warning {
+    color: #600;
+}
+.success {
+    color: #040;
+}
+
+.info {
+    color: #666;
+}
+
+.img-display {
+    max-width: 600px;
+}
+
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
